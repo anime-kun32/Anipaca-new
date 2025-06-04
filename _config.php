@@ -1,7 +1,7 @@
 
 <?php 
 
-$conn = new mysqli("sql203.infinityfree.com", "if0_38063719", "Ade5oyin", "if0_38063719_anipaca"); 
+$conn = new mysqli("sql203.infinityfree.com", "if0_38063719", "Ade6oyin", "if0_38063719_anipaca"); 
 
 
 if ($conn->connect_error) {
