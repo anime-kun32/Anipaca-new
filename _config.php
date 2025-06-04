@@ -23,7 +23,7 @@ $telegram = "https://t.me/anipaca";
 $instagram = "https://www.instagram.com/pxr15_"; 
 
 // all the api you need
-$zpi = "https://anipaca-api.vercel.app"; //https://github.com/PacaHat/zen-api
+$zpi = "https://anipaca-api-seven.vercel.app"; //https://github.com/PacaHat/zen-api
 $proxy = "https://gogoanime-and-hianime-proxy-mu.vercel.app/m3u8-proxy?url=";
 
 //If you want faster loading speed just put // before the first proxy and remove slashes from this one 
