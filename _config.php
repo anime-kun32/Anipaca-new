@@ -1,8 +1,7 @@
 
 <?php 
 
-$conn = new mysqli("HOSTNAME", "USERNAME", "PASSWORD", "DATABASE"); //just like $conn = new mysqli("localhost", "root", "", "anipaca");
-
+$conn = new mysqli("sql203.infinityfree.com", "if0_38063719", "Ade6oyin", "if0_38063719_anipaca"); 
 
 if ($conn->connect_error) {
     error_log("Database connection failed: " . $conn->connect_error);
@@ -23,8 +22,8 @@ $telegram = "https://t.me/anipaca";
 $instagram = "https://www.instagram.com/pxr15_"; 
 
 // all the api you need
-$zpi = "https://your-hosted-api.com/api"; //https://github.com/PacaHat/zen-api
-$proxy = $websiteUrl . "/src/ajax/proxy.php?url=";
+$zpi = "https://anipaca-api-seven.vercel.app/api"; //https://github.com/PacaHat/zen-api
+$proxy = "https://gogoanime-and-hianime-proxy-mu.vercel.app/m3u8-proxy?url=";
 
 //If you want faster loading speed just put // before the first proxy and remove slashes from this one 
 //$proxy = "https://your-hosted-proxy.com/proxy?url="; //https://github.com/PacaHat/shrina-proxy
