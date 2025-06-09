@@ -1,7 +1,7 @@
 
 <?php 
 
-$conn = new mysqli("anime-alabiadedoyinjohn-93ba.i.aivencloud.com", "avnadmin", "AVNS_bpmiP5ehyIM9iSVFqA2", "defaultdb"); 
+$conn = new mysqli("anime-alabiadedoyinjohn-93ba.i.aivencloud.com:12109", "avnadmin", "AVNS_bpmiP5ehyIM9iSVFqA2", "defaultdb"); 
 
 if ($conn->connect_error) {
     error_log("Database connection failed: " . $conn->connect_error);
