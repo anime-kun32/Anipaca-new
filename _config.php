@@ -1,7 +1,6 @@
+<?php
 
-<?php 
-
-$conn = new mysqli("anime-alabiadedoyinjohn-93ba.i.aivencloud.com:12109", "avnadmin", "AVNS_bpmiP5ehyIM9iSVFqA2", "defaultdb"); 
+$conn = new mysqli("anime-alabiadedoyinjohn-93ba.i.aivencloud.com:12109", "avnadmin", "AVNS_bpmiP5ehyIM9iSVFqA2", "defaultdb");
 
 if ($conn->connect_error) {
     error_log("Database connection failed: " . $conn->connect_error);
@@ -21,16 +20,11 @@ $version = "1.0.2";
 $discord = "https://dcd.gg/anipaca";
 $github = "https://github.com/PacaHat";
 $telegram = "https://t.me/anipaca";
-$instagram = "https://www.instagram.com/pxr15_"; 
+$instagram = "https://www.instagram.com/pxr15_";
 
-// all the api you need
-$zpi = "https://anipaca-api-seven.vercel.app/api"; //https://github.com/PacaHat/zen-api
+$zpi = "https://anipaca-api-seven.vercel.app/api";
 $proxy = "https://gogoanime-and-hianime-proxy-mu.vercel.app/m3u8-proxy?url=";
 
-//If you want faster loading speed just put // before the first proxy and remove slashes from this one 
-//$proxy = "https://your-hosted-proxy.com/proxy?url="; //https://github.com/PacaHat/shrina-proxy
-
+// $proxy = "https://your-hosted-proxy.com/proxy?url=";
 
 $banner = $websiteUrl . "/public/images/banner.png";
-
-    
