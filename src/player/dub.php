@@ -15,7 +15,7 @@ $server = $_GET['server'] ?? 'hd-1';
 $isPlay = isset($_GET['embed']) && $_GET['embed'] === 'true';
 $autoSkip = isset($_GET['skip']) && $_GET['skip'] === 'true';
 $isIframe = ($server === 'Fast' && $isPlay);
-$embd_url = "https://megaplay.buzz/stream/s-2/{$epId}/dub";
+$embd_url = "https://aniteams-player-livid.vercel.app/plyr?id{$rawId}&server=hd-2&category=dub";
 
 if ($isIframe) {
     echo '<iframe src="' . $embd_url . '" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>';
